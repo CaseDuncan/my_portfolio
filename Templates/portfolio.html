@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!---Custom CSS-->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg  fixed-top mb-5">
+        <a href="#" class="navbar-brand">Duncan's Portfolio</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#skills-head-section" class="nav-link">Skillset</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card card-boy">
+                    <img src="../assets/dante.jpg" class="thumbnail w-75" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 text-center text-capitalize mt-5">
+                <h5>I develop beautiful, and responsive Websites with e-commerce features and web-based applications that my clients can easily manage </h5>
+            </div>
+        
+        <div class="col-md-4"></div>
+    </div>
+    <!---skills-->
+    <div class="container mt-5" id="skills-head-section">
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+                <div class="col-md-3">
+                    <h5 class="text-center ">Front-end:</h5>
+                    <p><strong>HTML/CSS/Bootstrap</strong></p>
+                    
+                </div>
+
+                <div class="col-md-3  my-3">
+                    <h5 class="text-center">Back-end:</h5>
+                    <p><strong>Python(Django)</strong></p>
+                    
+
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="text-center">Databases:</h5>
+                    <p><strong>MYSQL</strong></p>
+                    
+
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="text-center">Design:</h5>
+                    <p><strong>PhotoShop</strong></p>
+                    <p><strong>Adobe illustrator & Adobe XD</strong></p>
+
+                </div>
+        </div>
+    </div>
+
+    <!--Services-->
+    <div class="container mt-5" id="services">
+        <h1 class="text-center pb-5">Services</h1>
+        <div class="row">
+                <div class="col-md-3">
+                    <h5 class="text-center">Web Design and Development</h5>
+                   
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="text-center">Logo Design</h5>
+                    
+
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="text-center">Brand Packaging</h5>
+                    
+
+                </div>
+        </div>
+    </div>
+    <!---projects-->
+    <div class="container mt-5 projects">
+        <h3 class="text-center">Projects</h3>
+        <div class="row">
+            <div class="col-md-4 proj">
+                <a href="https://github.com/CaseDuncan/E-commerce">Pharmacy Managemnt System</a>
+            </div>
+
+            <div class="col-md-4 proj">
+                
+                <a href="https://github.com/CaseDuncan/E-commerce">E-commerce Website</a>
+            </div>
+
+            <div class="col-md-4 proj">
+                <a href="https://github.com/CaseDuncan/realestate">Realestate Website</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Contact-->
+    <div class="container mt-5" id="contact">
+        <h5 class="text-center">Get In Touch</h5>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Phone No.</label>
+                        <input type="number" class="form-control" id="Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="your message goes here"></textarea>
+                    </div>
+                    <button type="submit" class="btn badge-success rounded-pill w-100">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+</body>
+</html>

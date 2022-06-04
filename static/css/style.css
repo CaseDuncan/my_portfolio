@@ -1,0 +1,31 @@
+body{
+    background: #000 !important;
+    color: #fff !important;
+}
+.navbar-toggler-icon{
+    color: #fff !important;
+}
+.nav-link{
+    font-size: 26px;
+    color: #fff !important;
+    font-family: sans-serif;
+}
+
+.col-md-3 p{
+    text-align: center !important;
+}
+
+.proj img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0 auto;
+    left: 20px;
+}
+@media only screen and (max-width: 576px){
+    .projects{
+        display: block;
+        text-align: center;
+    }
+}
+
